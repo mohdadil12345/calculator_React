@@ -27,9 +27,10 @@ function Calculator() {
      <button value="0" onClick={(e) => setinputval( inputval + e.target.value)}>0</button>
      <button value="00" onClick={(e) => setinputval( inputval + e.target.value)}>00</button>
      <button value="." onClick={(e) => setinputval( inputval + e.target.value)}>.</button>
-     <button  onClick={(e) => setinputval(eval(inputval))}>=</button>
      <button  value="/" onClick={(e) => setinputval(inputval + e.target.value)}>/</button>
      <button  onClick={()=> setinputval(inputval.slice(0, -1)) } >DEL</button>
+     <button className='equal'  onClick={(e) => setinputval(eval(inputval))}>=</button>
+
   </div>
 
     </div>
