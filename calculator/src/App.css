@@ -8,9 +8,9 @@
 .main_container{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 400px;
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 30px;
-  border: 1px solid rgb(44, 23, 160);
+  border: 1px solid rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -29,8 +29,9 @@
     padding: 15px;
     border-radius: 4px;
     margin: 20px auto;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 100%;
+    border: 1px solid rgb(1, 1, 1);
 }
 
 .box button{
@@ -39,5 +40,25 @@
   align-items: center;
   border-radius: 8px;
   border: 1px solid rgb(221, 221, 221);
-  padding: 10px;
+  padding: 14px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+input::placeholder{
+  color: tomato;
+}
+
+
+
+button:hover{
+   background-color: #ff6e06;
+   color: white;
+}
+
+.heading{
+  color: tomato;
+  text-align: center;
 }
