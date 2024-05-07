@@ -5,10 +5,10 @@ Basic Calculator app
 
 ## Screenshots
 ## full view
-![Screenshot 1](./calculator/src/assets/calci.png)
+![Screenshot 1](./calculator/src/assets/calci2.png)
 
 #  Mobile view
-![Screenshot 1](./calculator/src/assets/calci2.png)
+![Screenshot 1](./calculator/src/assets/calci.png)
 
 
 ## Deployment
